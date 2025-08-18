@@ -1,0 +1,250 @@
+
+
+
+.text-style, .text-style2 {
+  font-size: 3rem;
+}
+
+.text-style, .text-style2 .dev, .developer {
+  display: inline;
+}
+
+@media (max-width: 768px) {
+  .text-style, .text-style2, .dev, .developer{
+    display: block;
+  }
+    .text-style  {
+      line-height: 1;
+      margin-bottom: 40px;
+    }
+ 
+  
+}
+  
+ 
+
+ 
+
+
+
+.nav-link {
+    color: #cccccc;
+    
+}
+
+.nav-link:hover {
+  color: #A6425B;
+}
+
+
+.background-img {
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(-70%, -90%);
+    color: #cccccc;
+
+} 
+ 
+.text-style {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 170px;
+
+
+}
+
+.text-style2 {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+
+
+}
+ 
+
+    
+
+
+.gradient-background {
+  background: linear-gradient(300deg, #4B2C5E, #1E2238, #ef8172, #592836, #7D5A84, #434554);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bio-img {
+  border-radius: 100%;
+  height: 400px;
+  width: 300px;
+  object-fit: fill;
+  
+}
+
+.title {
+  color: #cccccc;
+
+  
+  
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+
+
+}
+
+.lead {
+  color: #cccccc;
+
+  
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+
+
+}
+
+
+.row {
+  display: flexbox;
+  justify-content: center;
+  
+}
+
+.projects {
+  background-color: #2B1E36;
+  
+}
+
+.text {
+  color: #cccccc;
+  font-family: 'Segoe UI', sans-serif;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.card-body {
+  background-color:#172330;
+  
+  
+}
+
+
+.img-1{
+    border-radius: 90%;
+    height: 200px;
+    width: 170px;
+    }
+
+.img-2 {
+  border-radius: 90%;
+  height: 200px;
+  width: 170px;
+}
+
+.img-3 {
+  border-radius: 90%;
+  height: 200px;
+  width: 170px;
+}
+
+.img-4 {
+  border-radius: 90%;
+  height: 200px;
+  width: 170px;
+}
+
+.img-5 {
+  border-radius: 90%;
+  height: 200px;
+  width: 170px;
+}
+
+.img-6 {
+  border-radius: 90%;
+  height: 200px;
+  width: 170px;
+}
+
+.img-7 {
+  border-radius: 90%;
+  height: 200px;
+  width: 170px;
+}
+
+.img-8 {
+  border-radius: 90%;
+  height: 200px;
+  width: 170px;
+}
+
+.img-9 {
+  border-radius: 90%;
+  height: 200px;
+  width: 170px;
+}
+
+.card {
+  border-color: #cccccc;
+  
+}
+
+.card-header {
+  background-color: #cccccc;
+  
+}
+
+h4 {
+  color: #a64242;
+
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.button {
+  border-color: #cccccc;
+  color: #cccccc;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  
+}
+
+.button:hover {
+  background-color: #cccccc;
+  color: #a64242;
+  
+}
+
+.copyright {
+  color:#cccccc
+}
